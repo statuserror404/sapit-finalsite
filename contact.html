@@ -1,0 +1,74 @@
+<!--This site is using design option 1-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Schneehütte Resort | Contact</title>
+        <meta name="author" content="Adam Sapit">
+        <meta name="description" content="Contact page for Schneehütte Resort">
+
+        <!--Favicon-->
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Germania+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <header>
+        <h1><a href=index.html>Schneehütte Resort</a></h1>
+
+        <nav>
+            <div>
+                <a href="index.html">Home</a>
+                <a href="#">Accommodations</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="contactus">
+        <div>
+            <div class="inner">    
+                <h2>Contact Us</h2>
+                <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+                    Required fields marked with a *</p>
+                <img src="images/swiss-peak.jpg" alt="A photo of a mountain.">
+            </div>
+            <div class="inner"> 
+                <form action="https://wp.zybooks.com/form-viewer.php">
+                    <label for="myname">Full Name:*</label>
+                    <input type="text" id="myname" name="myname" required>
+
+                    <label for="myemail">Email Address:*</label>
+                    <input type="email" id="myemail" name="email" required>
+
+                    <label for="mynum">Phone Number:*</label>
+                    <input type="tel" id="mynum" name="mynum" required>
+
+                
+                    <fieldset>
+                        <label>Preferred Method of Contact:</label>
+                        <input type="radio" id="prefem" name="contactpref" value="email" checked required>
+                        <label for="prefem">Email</label><br>
+
+                        <input type="radio" id="preftel" name="contactpref" value="phone">
+                        <label for="preftel">Phone</label><br>
+                    </fieldset>
+                    <label for="mycomments">Comments:*</label>
+                    <textarea name="mycomments" id="mycomments" required ></textarea >
+
+                    <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+                </form>
+            </div>
+        </div> 
+        </section>
+
+    </main>
+    <footer>
+        <p>Copyright ©2023 - Schneehütte Resort</p>
+        <p>This site is for educational purposes only.</p>
+    </footer>
+    </html>
